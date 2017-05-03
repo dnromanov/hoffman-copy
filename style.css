@@ -1,0 +1,327 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Bou",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.logo {
+  position: fixed;
+  top: 40px;
+  left: 40px;
+  z-index: 999;
+  width: 85px;
+  height: 85px;
+  max-height: 20%;
+  max-width: 20%;
+  background-image: url("img/logo.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.logo:hover {
+  background-image: url("img/logo-active.png");
+}
+
+.header-main {
+  width:100%;
+  min-height: 100vh;
+  position: relative;
+  margin-bottom: 0px;
+}
+
+video {
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  bottom: 0px;
+}
+
+.menu {
+  position: fixed;
+  bottom: 0px;
+  background: #ebcf24;
+  width: 100%;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  font-size: 0px;
+}
+
+.menu li {
+  display: inline-block;
+  width: 33%;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #000000;
+  font-family: "Bou",Helvetica,Arial,sans-serif;
+  padding: 5px;
+}
+
+.menu li:first-child {
+  text-align: left;
+}
+
+.menu li:nth-child(2) {
+  text-align: center;
+}
+
+.menu li:last-child {
+  text-align: right;
+}
+
+.menu a {
+  color: #000000;
+  font-family: "Bou",Helvetica,Arial,sans-serif;
+  padding: 5px;
+  font-size: 17px;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+.content-item {
+  margin-bottom:30px;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: soft-light;
+}
+
+.content {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-family: "Hagin";
+}
+
+.content h1 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 54px;
+  text-transform: uppercase;
+  line-height: 1em;
+  color: #000000;
+  font-weight: normal;
+  transition: color;
+  transition-duration: 0.35s;
+}
+
+.content h2 {
+  margin: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+  font-family: "Bou";
+  font-size: 20px;
+  line-height: 1em;
+  letter-spacing: 0.1em;
+  color: #000000;
+  font-weight: normal;
+  transition: color;
+  transition-duration: 0.75s;
+}
+
+.content a {
+  text-decoration: none;
+}
+
+.content a:hover h1{
+  color: #ebcf24;
+}
+
+.content a:hover h2{
+  color: #ebcf24;
+}
+
+.content-background {
+  display: block;
+  position: fixed;
+  bottom: 0px;
+  left:0px;
+  height: 100vh;
+  width: 100%;
+  opacity: 0;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  transition: opacity;
+  transition-duration: 1s;
+}
+
+.content-background-main {
+  display: block;
+  position: fixed;
+  bottom: 0px;
+  left:0px;
+  height: 100vh;
+  width: 100%;
+  opacity: 0.1;
+  /*background-image: url("img/1-hoffmans-nike-free-1-1024x576.jpg");*/
+  background-image: url("http://hoffmanbros.tv/wp-content/uploads/2016/04/hoffmans-nike-free-1-1024x576.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -2;
+}
+
+.content a:hover > .content-background {
+  opacity: 1;
+}
+
+.content-background-1 {
+  /*background-image: url("img/1-hoffmans-nike-free-1-1024x576.jpg");*/
+  background-image: url("http://hoffmanbros.tv/wp-content/uploads/2016/04/hoffmans-nike-free-1-1024x576.jpg");
+}
+
+.content-background-2 {
+  /*background-image: url("img/2-FA16_SB_3min_H264_1920x1080_Preview-1024x576.jpg");*/
+  background-image: url("http://hoffmanbros.tv/wp-content/uploads/2016/07/FA16_SB_3min_H264_1920x1080_Preview-1024x576.jpg");
+}
+
+.content-background-3 {
+  /*background-image: url("img/3-STRIDE_CHASE-1024x576.png");*/
+  background-image: url("http://hoffmanbros.tv/wp-content/uploads/2015/10/3_STRIDE_CHASE-1024x576.png");
+}
+
+.content-background-4 {
+  /*background-image: url("img/4-OLYPMICS_2014_BID_LA_24-1024x576.png");*/
+  background-image: url("http://hoffmanbros.tv/wp-content/uploads/2015/10/4_OLYPMICS_2014_BID_LA_24-1024x576.png");
+}
+
+.content-background-5 {
+  /*background-image: url("img/5_SUBWAY_SUMMERTIME_B-1024x576.png");*/
+  background-image: url("http://hoffmanbros.tv/wp-content/uploads/2015/10/8_NIKE_JUMP_ROPE-1024x576.png");
+}
+
+.content-background-6 {
+  /*background-image: url("img/6_PEEPS_BROTHERS_B-1024x576.png");*/
+  background-image: url("http://hoffmanbros.tv/wp-content/uploads/2015/10/5_PEEPS_BROTHERS_B-1024x576.png");
+}
+
+.content-background-7 {
+  /*background-image: url("img/7_YURBUDS_INFINATE_LOOP-1024x576.png");*/
+  background-image: url("http://hoffmanbros.tv/wp-content/uploads/2015/10/6_YURBUDS_INFINATE_LOOP-1024x576.png");
+}
+
+.content-background-8 {
+  /*background-image: url("img/8-hoffmans-easports-nhl16-1024x576.jpg");*/
+  background-image: url("http://hoffmanbros.tv/wp-content/uploads/2015/10/8_NIKE_JUMP_ROPE-1024x576.png");
+}
+
+.content-background-9 {
+  /*background-image: url("img/9-hoffmans-subway-breakthrough-1024x576.jpg");*/
+  background-image: url("http://hoffmanbros.tv/wp-content/uploads/2016/04/hoffmans-subway-breakthrough-1024x576.jpg");
+}
+
+.content-background-10 {
+  /*background-image: url("img/10_NIKE_JUMP_ROPE-1024x576.png");*/
+  background-image: url("http://hoffmanbros.tv/wp-content/uploads/2015/10/8_NIKE_JUMP_ROPE-1024x576.png");
+}
+
+.content-background-11 {
+  /*background-image: url("img/11_RUSSEL_ATHLETIC_DECLARATION_A-1024x576.png");*/
+  background-image: url("http://hoffmanbros.tv/wp-content/uploads/2015/10/10_RUSSEL_ATHLETIC_DECLARATION_A-1024x576.png");
+}
+
+@media (max-width: 700px) {
+  .content-item {
+    margin-bottom: 10px;
+    background-color: rgb(1, 71, 107);
+  }
+
+  .content-item div {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .content-background {
+    position: static;
+    opacity: 1;
+    height: 100vh;
+    width: 1px;
+    background: none;
+    cursor: default;
+  }
+
+  .content h1 {
+    color: #ebcf24;
+  }
+
+  .content h2 {
+    color: #ebcf24;
+  }
+
+  .content a:hover > .content-background {
+    opacity: 1;
+  }
+
+  .content-background-main {
+    opacity: 1;
+  }
+
+  .content-background-1-handset {
+    /*background-image: url("img/1-hoffmans-nike-free-1-1024x576.jpg");*/
+    background-image: url("http://hoffmanbros.tv/wp-content/uploads/2016/04/hoffmans-nike-free-1-1024x576.jpg");
+  }
+
+  .content-background-2-handset {
+    /*background-image: url("img/2-FA16_SB_3min_H264_1920x1080_Preview-1024x576.jpg");*/
+    background-image: url("http://hoffmanbros.tv/wp-content/uploads/2016/07/FA16_SB_3min_H264_1920x1080_Preview-1024x576.jpg");
+  }
+
+  .content-background-3-handset {
+    /*background-image: url("img/3-STRIDE_CHASE-1024x576.png");*/
+    background-image: url("http://hoffmanbros.tv/wp-content/uploads/2015/10/3_STRIDE_CHASE-1024x576.png");
+  }
+
+  .content-background-4-handset {
+    /*background-image: url("img/4-OLYPMICS_2014_BID_LA_24-1024x576.png");*/
+    background-image: url("http://hoffmanbros.tv/wp-content/uploads/2015/10/4_OLYPMICS_2014_BID_LA_24-1024x576.png");
+  }
+
+  .content-background-5-handset {
+    /*background-image: url("img/5_SUBWAY_SUMMERTIME_B-1024x576.png");*/
+    background-image: url("http://hoffmanbros.tv/wp-content/uploads/2015/10/8_NIKE_JUMP_ROPE-1024x576.png");
+  }
+
+  .content-background-6-handset {
+    /*background-image: url("img/6_PEEPS_BROTHERS_B-1024x576.png");*/
+    background-image: url("http://hoffmanbros.tv/wp-content/uploads/2015/10/5_PEEPS_BROTHERS_B-1024x576.png");
+  }
+
+  .content-background-7-handset {
+    /*background-image: url("img/7_YURBUDS_INFINATE_LOOP-1024x576.png");*/
+    background-image: url("http://hoffmanbros.tv/wp-content/uploads/2015/10/6_YURBUDS_INFINATE_LOOP-1024x576.png");
+  }
+
+  .content-background-8-handset {
+    /*background-image: url("img/8-hoffmans-easports-nhl16-1024x576.jpg");*/
+    background-image: url("http://hoffmanbros.tv/wp-content/uploads/2015/10/8_NIKE_JUMP_ROPE-1024x576.png");
+  }
+
+  .content-background-9-handset {
+    /*background-image: url("img/9-hoffmans-subway-breakthrough-1024x576.jpg");*/
+    background-image: url("http://hoffmanbros.tv/wp-content/uploads/2016/04/hoffmans-subway-breakthrough-1024x576.jpg");
+  }
+
+  .content-background-10-handset {
+    /*background-image: url("img/10_NIKE_JUMP_ROPE-1024x576.png");*/
+    background-image: url("http://hoffmanbros.tv/wp-content/uploads/2015/10/8_NIKE_JUMP_ROPE-1024x576.png");
+  }
+
+  .content-background-11-handset {
+    /*background-image: url("img/11_RUSSEL_ATHLETIC_DECLARATION_A-1024x576.png");*/
+    background-image: url("http://hoffmanbros.tv/wp-content/uploads/2015/10/10_RUSSEL_ATHLETIC_DECLARATION_A-1024x576.png");
+  }
+
+  .logo {
+    top: 10px;
+    left: 10px;
+  }
+}

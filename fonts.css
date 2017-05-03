@@ -1,0 +1,17 @@
+@font-face{
+  font-family:"Bou";
+  src:url("type/BouCollege.eot");
+  src:url("type/BouCollege.eot?#iefix") format("embedded-opentype");
+  src:url("type/BouCollege.woff") format("woff"),url("type/BouCollege.ttf") format("truetype");
+  font-weight:normal;
+  font-style:normal
+}
+
+@font-face{
+  font-family:"Hagin";
+  src:url("type/HaginCapsMedium.eot");
+  src:url("type/HaginCapsMedium.eot?#iefix") format("embedded-opentype");
+  src:url("type/HaginCapsMedium.woff") format("woff"),url("type/HaginCapsMedium.ttf") format("truetype");
+  font-weight:normal;
+  font-style:normal
+}
